@@ -148,8 +148,30 @@ p {
 
 /* особенности */
 
+.features > .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features-list{
+    display: flex;
+}
+
+.features-list >.features-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.features-item {
+    width: 270px;
+    height: 101px;
+}
+
 .features-title{
-    color: var(--main-white-color);
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 .title{
@@ -167,6 +189,7 @@ p {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 10px;
 
     color: var(--title-text-color);
     
@@ -178,6 +201,24 @@ p {
     letter-spacing: 0.03em;
 
     color: var(--main-text-color);
+}
+
+/* Работа*/
+
+.work > .container{
+    margin-bottom: 94px;
+}
+
+.work-list{
+    display: flex;
+}
+
+.work-title {
+    padding-bottom: 50px;
+}
+
+.work-img:not(:last-child){
+    margin-right: 30px;
 }
 
 /* команда */
