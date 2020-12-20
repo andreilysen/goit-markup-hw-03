@@ -38,8 +38,9 @@ p {
     margin-bottom: 0;
 }
 
+
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -53,6 +54,10 @@ p {
     display: flex;
     align-items: center;
     height: 80px;
+}
+
+.portfolio {
+    border: 1px solid #ECECEC;
 }
 
 .nav-list >.item:not(:last-child) {
@@ -108,6 +113,7 @@ p {
 
 .hero{
     background-color:  #2F303A;
+    text-align: center;
    
 }
 
@@ -125,8 +131,7 @@ p {
     line-height: 1.37;
     text-align: center;
     text-transform: uppercase;
-    width: 696px;
-    height: 120px;
+    
     
   
 
@@ -313,12 +318,32 @@ p {
 
 /*кнопки*/
 
+.project-filter > .container{
+    padding-top: 100px;
+    padding-bottom: 94px;
+ }
+ 
+ .filter-list {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .filter-item:not(:last-child) {
+     margin-right: 8px;
+ }
+ 
+
 .filter-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+
+    background: #F5F4FA;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 22px;
 
     color:var(--title-text-color);
 }
@@ -334,11 +359,52 @@ p {
 
 /*проекты*/
 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;  
+}
+
+
+.project-item {
+    margin-right: 30px;
+    margin-bottom: 30px;  
+}
+
+.project-item > a {
+    display: block;
+}
+
+.project-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.project-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.project-img {
+    display: block;
+}
+
+
+.project-title{
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .project-item-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    
 
     color: var(--title-text-color);
 }
