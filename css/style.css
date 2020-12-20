@@ -339,6 +339,7 @@ p {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 
     background: #F5F4FA;
     border: 0;
