@@ -48,12 +48,18 @@ p {
 /* Навигация*/
 
 
-.header > .container,
+.header > .container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .navigation,
 .nav-list {
     display: flex;
     align-items: center;
-    height: 80px;
+
 }
 
 .portfolio {
@@ -211,7 +217,7 @@ p {
 /* Работа*/
 
 .work > .container{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .work-list{
@@ -232,9 +238,11 @@ p {
     background-color: #F5F4FA;;
 }
 
-.team-title {
+.team > .container {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 
 .team-list {
     display: flex;
@@ -279,11 +287,12 @@ p {
 
 .footer{
     background-color: var(--address-color);
-    height: 252px;
+    
 }
 
 .footer > .container{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -326,6 +335,7 @@ p {
  .filter-list {
      display: flex;
      justify-content: center;
+     margin-bottom: 50px;
  }
  
  .filter-item:not(:last-child) {
@@ -339,6 +349,7 @@ p {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform:capitalize;
     cursor: pointer;
 
     background: #F5F4FA;
@@ -362,8 +373,7 @@ p {
 
 .project-list {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;  
+    flex-wrap: wrap;  
 }
 
 
