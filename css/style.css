@@ -52,7 +52,7 @@ p {
     display: flex;
     align-items: center;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
 }
 
 .navigation,
@@ -120,13 +120,12 @@ p {
 .hero{
     background-color:  #2F303A;
     text-align: center;
-   
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero > .container{
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    text-align: center; 
 }
 
 
@@ -138,9 +137,6 @@ p {
     text-align: center;
     text-transform: uppercase;
     
-    
-  
-
     color: var(--main-white-color);
 }
 
@@ -159,7 +155,7 @@ p {
 
 /* особенности */
 
-.features > .container{
+.features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -216,7 +212,7 @@ p {
 
 /* Работа*/
 
-.work > .container{
+.work {
     padding-bottom: 94px;
 }
 
@@ -235,14 +231,10 @@ p {
 /* команда */
 
 .team{
-    background-color: #F5F4FA;;
-}
-
-.team > .container {
+    background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 
 .team-list {
     display: flex;
@@ -287,10 +279,6 @@ p {
 
 .footer{
     background-color: var(--address-color);
-    
-}
-
-.footer > .container{
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -327,11 +315,11 @@ p {
 
 /*кнопки*/
 
-.project-filter > .container{
+.project-filter {
     padding-top: 100px;
     padding-bottom: 94px;
  }
- 
+   
  .filter-list {
      display: flex;
      justify-content: center;
@@ -349,7 +337,6 @@ p {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    text-transform:capitalize;
     cursor: pointer;
 
     background: #F5F4FA;
